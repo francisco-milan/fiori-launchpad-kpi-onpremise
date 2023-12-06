@@ -2,7 +2,7 @@
 🚧 work in progress 🚧
 <br><br>
 Find a way to send KPIs from ABAP to BTP. <br>
-Maintain KPIs for abap2UI5 apps integrated in SAP Build Launchpad Service.
+Maintain KPIs for abap2UI5 apps integrated in SAP Build Workzone Launchpad Service.
 <br>
 <br>
 #### Approach / First Idea:
