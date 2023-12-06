@@ -21,7 +21,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
     result = 11.
 
 
-    "way2 - use importing parameter to differ depending on importing params...
+    "way2 - use the importing parameter for different calculations and results
     "https://<<system>>/sap/opu/odata/sap/Z2UI5_PROXY_KPI_SRV/ENTITYCollection/$count?$filter=CLASS eq 'z2ui5_cl_proxy_kpi_hello_world' and FILTER eq '{ "PROP1" : "B", "PROP2" : "VAL2" }'
     TRY.
         DATA lr_val TYPE REF TO data.
