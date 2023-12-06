@@ -46,7 +46,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
 
 ENDCLASS.
 ```
-(3/3) The rest handles an OData service (Dummy retunring n table entries):
+(3/3) The rest handles a generic OData service (which just return n dummy entries):
 ```abap
   METHOD /iwbep/if_mgw_appl_srv_runtime~get_entityset.
 
