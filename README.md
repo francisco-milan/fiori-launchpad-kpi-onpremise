@@ -37,7 +37,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
 
   METHOD z2ui5_if_proxy_kpi~count.
 
-    "app level calculation....
+    "kpi calculation....
     result = 11.
 
   ENDMETHOD.
