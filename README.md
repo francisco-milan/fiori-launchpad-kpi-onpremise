@@ -13,7 +13,11 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 
 [link](https://excalidraw.com/#json=d-kRyy0bzOtYQgxweVXon,u2mAWDGdB9dg-J0NXbMvnw)
 
-### Approach:
+### Preview
+<img width="621" alt="Pasted Graphic 3" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/1b24c31e-5570-4324-92d0-5db915394ceb">
+
+
+### Approach
 (1/3) Use a single Interface:
 ```abap
 INTERFACE z2ui5_if_lp_kpi
