@@ -33,7 +33,7 @@ CLASS zcl_z2ui5_proxy_kpi_dpc_ext IMPLEMENTATION.
       CATCH cx_root.
     ENDTRY.
 
-    DATA li_proxy_kpi TYPE REF TO z2ui5_if_proxy_kpi.
+    DATA li_proxy_kpi TYPE REF TO z2ui5_if_lp_kpi.
     CREATE OBJECT li_proxy_kpi TYPE (lv_classname).
     DATA(lv_count) = li_proxy_kpi->count( lv_filter ).
 
