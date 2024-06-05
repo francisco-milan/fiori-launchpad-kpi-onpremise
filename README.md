@@ -1,15 +1,18 @@
 # abap2UI5-btp_proxy_kpi
-🚧 work in progress 🚧
-<br><br>
-Find a way to send KPIs from ABAP to BTP. <br>
-Maintain KPIs for abap2UI5 apps integrated in SAP Build Workzone Launchpad Service.
-<br><br>
 _Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
+
+#### Key Features
+* KPI Connector: Send KPIs of your abap2UI5 Apps to SAP Fiori Launchpad
+* User-Friendly: Implement just a single method and return the desired value
+* Project Consistency: Easily integrable with your abap2UI5 apps
+* Compatibility: Runs with SAP Netweaver (v.7.30 or higher) or S/4 Private (Standard ABAP)
+
 <br>
+#### Functionality
 <img width="1502" alt="Screenshot 2024-06-05 at 17 26 06" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/52c82ade-0325-4402-9620-292fbc6de721">
 [LINK](https://excalidraw.com/#json=ZkShohIKvXiVa7MrLghOb,JGduCresBjsHfGtg7GthMg)
 <br>
-#### Approach / First Idea:
+#### Approach:
 (1/3) Use a single Interface:
 ```abap
 INTERFACE z2ui5_if_proxy_kpi
@@ -82,3 +85,5 @@ ENDCLASS.
 
   ENDMETHOD.
 ```
+
+#### Installation
