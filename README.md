@@ -21,7 +21,7 @@ INTERFACE z2ui5_if_lp_kpi
 
   METHODS count
     IMPORTING
-      filter           TYPE string
+      filter        TYPE string
     RETURNING
       VALUE(result) TYPE i.
 
@@ -39,13 +39,12 @@ CLASS z2ui5_cl_lp_kpi_hello_world DEFINITION
     INTERFACES z2ui5_if_app.
 
 ENDCLASS.
+
 CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
 
   METHOD z2ui5_if_lp_kpi~count.
-
     "kpi calculation....
     result = 11.
-
   ENDMETHOD.
 
   METHOD z2ui5_if_app~main.
