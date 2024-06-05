@@ -10,6 +10,7 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 ### Functionality
 <img width="800" alt="image" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/c7db9e46-6876-40d8-a632-be79e2fbcb91">
 <br>
+
 [link](https://excalidraw.com/#json=d-kRyy0bzOtYQgxweVXon,u2mAWDGdB9dg-J0NXbMvnw)
 
 ### Approach:
