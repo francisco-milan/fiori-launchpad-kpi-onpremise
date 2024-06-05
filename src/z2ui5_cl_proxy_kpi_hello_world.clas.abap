@@ -12,13 +12,14 @@ ENDCLASS.
 
 
 
-CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
+CLASS Z2UI5_CL_PROXY_KPI_HELLO_WORLD IMPLEMENTATION.
+
 
   METHOD z2ui5_if_proxy_kpi~count.
 
     "way1 - simple version, just use the classname
     "https://<<system>>/sap/opu/odata/sap/Z2UI5_PROXY_KPI_SRV/ENTITYCollection/$count?$filter=CLASS eq 'z2ui5_cl_proxy_kpi_hello_world'
-    result = 11.
+    result = 12.
 
 
     "way2 - use the importing parameter for different calculations and results
@@ -33,6 +34,9 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
         ).
 
         ASSIGN ('LR_VAL->PROP1->*') TO FIELD-SYMBOL(<prop1>).
+        if sy-subrc <> 0.
+        return.
+        endif.
 
         CASE <prop1>.
           WHEN `A`.
@@ -45,5 +49,4 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
     ENDTRY.
 
   ENDMETHOD.
-
 ENDCLASS.

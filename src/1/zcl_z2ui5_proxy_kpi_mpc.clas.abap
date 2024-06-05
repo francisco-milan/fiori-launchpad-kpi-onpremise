@@ -141,7 +141,7 @@ lo_entity_type->bind_structure( iv_structure_name  = 'ZCL_Z2UI5_PROXY_KPI_MPC=>T
 *&---------------------------------------------------------------------*
 
 
-  CONSTANTS: lc_gen_date_time TYPE timestamp VALUE '20231206154550'.                  "#EC NOTEXT
+  CONSTANTS: lc_gen_date_time TYPE timestamp VALUE '20240605133324'.                  "#EC NOTEXT
   rv_last_modified = super->get_last_modified( ).
   IF rv_last_modified LT lc_gen_date_time.
     rv_last_modified = lc_gen_date_time.
@@ -161,6 +161,5 @@ lo_entity_type->bind_structure( iv_structure_name  = 'ZCL_Z2UI5_PROXY_KPI_MPC=>T
 
 DATA:
      ls_text_element TYPE ts_text_element.                                 "#EC NEEDED
-CLEAR ls_text_element.
   endmethod.
 ENDCLASS.
