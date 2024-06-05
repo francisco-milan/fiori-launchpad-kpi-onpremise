@@ -1,4 +1,4 @@
-# abap2UI5 - Connector KPI for SAP Fori Launchpad
+# abap2UI5 - KPI Connector for SAP Fori Launchpad
 _Running into problems or found a bug? Create an issue [**here**](https://github.com/abap2UI5/abap2UI5/issues)_
 
 #### Key Features
