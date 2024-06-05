@@ -8,8 +8,9 @@ _Running into problems or found a bug? Create an issue [**here**](https://github
 * Compatibility: Runs with SAP Netweaver (v.7.30 or higher) or S/4 Private (Standard ABAP)
 
 ### Functionality
-<img width="1502" alt="Screenshot 2024-06-05 at 17 26 06" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/52c82ade-0325-4402-9620-292fbc6de721"><br>
-[link](https://excalidraw.com/#json=ZkShohIKvXiVa7MrLghOb,JGduCresBjsHfGtg7GthMg)
+<img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/c7db9e46-6876-40d8-a632-be79e2fbcb91">
+<br>
+[link](https://excalidraw.com/#json=d-kRyy0bzOtYQgxweVXon,u2mAWDGdB9dg-J0NXbMvnw)
 
 ### Approach:
 (1/3) Use a single Interface:
