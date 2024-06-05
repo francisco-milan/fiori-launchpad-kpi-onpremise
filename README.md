@@ -48,7 +48,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD z2ui5_if_app~main.
-        "abap2UI5 app logic here...
+    "abap2UI5 app logic here...
   ENDMETHOD.
 
 ENDCLASS.
