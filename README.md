@@ -44,7 +44,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
 
   METHOD z2ui5_if_lp_kpi~count.
     "kpi calculation....
-    result = 11.
+    result = 10.
   ENDMETHOD.
 
   METHOD z2ui5_if_app~main.
