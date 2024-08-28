@@ -19,7 +19,7 @@
   ],
   "syntax": {
     "version": "v750",
-    "errorNamespace": "."
+    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_)"
   },
   "rules": {
     "downport": true,
