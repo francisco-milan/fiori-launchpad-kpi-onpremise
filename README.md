@@ -2,7 +2,7 @@
 
 ### Key Features
 * KPI Connector: Send KPIs of your abap2UI5 Apps to SAP Fiori Launchpad
-* User-Friendly: Implement just a single method and return the desired value
+* User-Friendly: Implement just a single interface and method to return the KPI value
 * Project Consistency: Easily integrable with your abap2UI5 apps
 * Compatibility: Runs with SAP Netweaver (v.7.30 or higher) or S/4 Private (Standard ABAP)
 
@@ -17,7 +17,7 @@
 
 
 ### Approach
-(1/3) Use a single Interface:
+(1/4) Use a single Interface:
 ```abap
 INTERFACE z2ui5_if_lp_kpi
   PUBLIC.
@@ -30,7 +30,7 @@ INTERFACE z2ui5_if_lp_kpi
 
 ENDINTERFACE.
 ```
-(2/3) Which can be used on app level to return KPIs:
+(2/4) Which can be used on app level to return KPIs:
 ```abap
 CLASS z2ui5_cl_lp_kpi_hello_world DEFINITION
   PUBLIC
@@ -56,7 +56,7 @@ CLASS z2ui5_cl_proxy_kpi_hello_world IMPLEMENTATION.
 
 ENDCLASS.
 ```
-(3/3) The rest handles a generic OData service (which just returns n dummy entries):
+(3/4) A generic OData service takes care of everything else (which just returns n dummy entries):
 ```abap
   METHOD /iwbep/if_mgw_appl_srv_runtime~get_entityset.
 
@@ -88,6 +88,8 @@ ENDCLASS.
 
   ENDMETHOD.
 ```
+(4/4) Maintain the KPI at the Launchpad with the following endpoint:
+.../sap/opu/odata/sap/Z2UI5_PROXY_KPI_SRV/ENTITYCollection/$count?$filter=CLASS eq '<<CLASSNAME>>'
 
 #### Installation
 [**Guideline**](https://www.linkedin.com/pulse/abap2ui5-host-your-apps-sap-fiori-launchpad-33-kpis-abap2ui5-uuxxe/)
