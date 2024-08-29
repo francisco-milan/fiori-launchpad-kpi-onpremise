@@ -89,7 +89,7 @@ ENDCLASS.
   ENDMETHOD.
 ```
 (4/4) Maintain the KPI at the Launchpad with the following endpoint:
-.../sap/opu/odata/sap/Z2UI5_PROXY_KPI_SRV/ENTITYCollection/$count?$filter=CLASS eq '<<CLASSNAME>>'
+.../sap/opu/odata/sap/Z2UI5_PROXY_KPI_SRV/ENTITYCollection/$count?$filter=CLASS eq 'z2ui5_cl_proxy_kpi_hello_world'
 
 #### Installation
 [**Guideline**](https://www.linkedin.com/pulse/abap2ui5-host-your-apps-sap-fiori-launchpad-33-kpis-abap2ui5-uuxxe/)
