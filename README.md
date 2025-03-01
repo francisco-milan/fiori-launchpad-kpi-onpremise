@@ -6,9 +6,8 @@ Features
 * Project Consistency: Easily integrable with your abap2UI5 apps
 * Compatibility: Runs with SAP Netweaver (v.7.30 or higher) or S/4 Private (Standard ABAP)
 
-
 ### Usage
-1. Use a single Interface:
+1. The launchpad-kpi addons can be accesd via a single interface and method:
 ```abap
 INTERFACE z2ui5_if_lp_kpi
   PUBLIC.
@@ -21,7 +20,7 @@ INTERFACE z2ui5_if_lp_kpi
 
 ENDINTERFACE.
 ```
-2. Which can be used on app level to return KPIs:
+2. Include it into you app to return KPIs as shown here:
 ```abap
 CLASS z2ui5_cl_lp_kpi_hello_world DEFINITION
   PUBLIC
@@ -60,10 +59,8 @@ ENDCLASS.
 ###### Preview
 <img width="621" alt="Pasted Graphic 3" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/1b24c31e-5570-4324-92d0-5db915394ceb">
 
-
-
-### Installation
-[**Guideline**](https://www.linkedin.com/pulse/abap2ui5-host-your-apps-sap-fiori-launchpad-33-kpis-abap2ui5-uuxxe/)
+### Limitations & To-Do
+* Implement and CDS/SADL bases OData Service for `ABAP for Cloud` compatibility
 
 ### Issues
 For bug reports or feature requests, please open an issue in the [abap2UI5 repository.](https://github.com/abap2UI5/abap2UI5/issues)
