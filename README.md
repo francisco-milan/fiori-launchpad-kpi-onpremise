@@ -21,10 +21,10 @@
 <img width="700" alt="image" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/c7db9e46-6876-40d8-a632-be79e2fbcb91">
 
 ###### Preview
-<img width="621" alt="Pasted Graphic 3" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/1b24c31e-5570-4324-92d0-5db915394ceb">
+<img width="300" alt="Pasted Graphic 3" src="https://github.com/abap2UI5/abap2UI5-connector_launchpad_kpi/assets/102328295/1b24c31e-5570-4324-92d0-5db915394ceb">
 
 
-### Usage
+#### Usage
 1. The launchpad-kpi addons can be accesd via a single interface and method:
 ```abap
 INTERFACE z2ui5_if_lp_kpi
